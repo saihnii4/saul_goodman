@@ -13,7 +13,7 @@ opinions = [
 text_config = {"font": "Impact", "font_size": 27, "bg_color": "white"}
 
 
-def compile_text(tokens: typing.List[str]) -> typing.Generator[TextClip]:
+def compile_text(tokens: typing.List[str]):
     def _offset(clips: typing.List[TextClip]):
         t = 0
         for clip in clips:
@@ -44,5 +44,5 @@ composite = CompositeVideoClip([caption, clip.with_position(("bottom"))])
 composite.audio = CompositeAudioClip([audio]).with_duration(duration)
 composite.duration = duration
 composite.write_videofile("the_fog_is_coming.mp4", 30)
-# composite.write_gif("the_fog_is_coming.gif", 10)
+composite.write_gif("the_fog_is_coming.gif", 30)
 composite.close()
