@@ -5,7 +5,7 @@ Better Call Saul memes
 
 ## Motivation
 
-<img src="https://c.tenor.com/1y8zDc-ll-EAAAAd/3d-saul-saul-goodman.gif" height="240"/>
+<img src="media/saul.gif" height="240"/>
 
 ## Prerequisites
 
