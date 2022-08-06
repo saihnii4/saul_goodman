@@ -13,8 +13,7 @@ opinions = [
 text_config = {"font": "Impact", "font_size": 27, "bg_color": "white"}
 
 
-def compile_text(tokens):
-
+def compile_text(tokens: typing.List[str]) -> typing.Generator[TextClip]:
     def _offset(clips: typing.List[TextClip]):
         t = 0
         for clip in clips:
