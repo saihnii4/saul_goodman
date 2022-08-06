@@ -1,0 +1,6 @@
+bin/*
+lib/*
+
+*.mp4
+*.gif
+!media/*
